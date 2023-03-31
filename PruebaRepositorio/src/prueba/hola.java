@@ -39,4 +39,11 @@ public class hola {
 	public static void main(String[] args) {
 	}
 
+	@Override
+	public String toString() {
+		return "hola [nombre=" + nombre + ", edad=" + edad + ", id=" + id + "]";
+	}
+
+	
+
 }
