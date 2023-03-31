@@ -6,7 +6,6 @@ public class hola {
 	private String id;
 
 	public hola(String nombre, String edad, String id) {
-		super();
 		this.nombre = nombre;
 		this.edad = edad;
 		this.id = id;
@@ -37,6 +36,10 @@ public class hola {
 	}
 
 	public static void main(String[] args) {
+		hola h = new hola("carlitos", "20", "1001273022"); 
+		hola h2 = new hola("juan", "30", "1000127772");
+		h.toString();
+		h2.toString();
 	}
 
 	@Override
