@@ -4,8 +4,6 @@ public class hola {
 	private String nombre;
 	private String edad;
 	private String id;
-	
-	
 
 	public hola(String nombre, String edad, String id) {
 		super();
@@ -14,9 +12,31 @@ public class hola {
 		this.id = id;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
 
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getEdad() {
+		return edad;
+	}
+
+	public void setEdad(String edad) {
+		this.edad = edad;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 
 	public static void main(String[] args) {
 	}
-	
+
 }
